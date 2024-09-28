@@ -1,3 +1,5 @@
-# Portifólio
+# React Project Template
 
-# In development
+- **TypeScript**
+- **Taiwindcss**
+- **Alias paths**
