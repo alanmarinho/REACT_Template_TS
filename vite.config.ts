@@ -4,7 +4,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/', // se por ./ o deploy vai viram um inferno com os assets sendo buscados em url relativa, 3 dias (literalmente) para achar esse bug VSF
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src/'),
